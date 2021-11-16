@@ -1,12 +1,15 @@
 .nav-contacts {
   display: flex;
-  margin-left: auto;
 
   list-style: none;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.nav-contacts_left {
+  margin-left: auto;
 }
 
 .nav-contacts .nav-contacts__item + .nav-contacts__item {

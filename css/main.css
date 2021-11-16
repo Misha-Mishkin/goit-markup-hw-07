@@ -218,12 +218,15 @@ img {
 
 .nav-contacts {
   display: flex;
-  margin-left: auto;
   list-style: none;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.nav-contacts_left {
+  margin-left: auto;
 }
 
 .nav-contacts .nav-contacts__item + .nav-contacts__item {
@@ -578,6 +581,9 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+}
+
+.features__list_right {
   margin-right: -30px;
 }
 
