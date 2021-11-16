@@ -12,7 +12,7 @@
   margin-bottom: 20px;
 
   text-decoration: none;
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   letter-spacing: 0.03em;
   font-size: 26px;
   line-height: 1.19;
@@ -52,15 +52,22 @@
   font-style: normal;
 }
 
-.footer-contact-mail,
+.footer-contact-mail {
+  font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
+
 .footer-contact-phone {
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-contact-mail:hover,
-.footer-contact-mail:focus,
-.footer-contact-phone:hover,
-.footer-contact-phone:focus {
-  color: var(--accent-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
 }

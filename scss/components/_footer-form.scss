@@ -43,12 +43,12 @@
   display: flex;
   align-items: center;
   padding-left: 29px;
-}
 
-.footer-form-button:hover,
-.footer-form-button:focus {
-  background-color: #188ce8;
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    cursor: pointer;
+  }
 }
 
 .footer-form-button-text {
